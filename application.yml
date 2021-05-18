@@ -1,0 +1,9 @@
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://192.168.25.137:9999/eureka/
+  instance:
+    hostname: PC-Frederico
